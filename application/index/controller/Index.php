@@ -7,7 +7,8 @@ class Index extends Controller
 {
     public function index()
     {
-       
+        dump(1);
+        exit();
         return $this->fetch('index', ['hello'=>'world']);
     }
 }
