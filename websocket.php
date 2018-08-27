@@ -12,3 +12,4 @@
     $ret = socket_listen($socket, 2);
 
     socket_close($socket);
+
