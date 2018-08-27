@@ -11,3 +11,4 @@
     socket_connect($socket, '0.0.0.0', 8000);
     $ret = socket_listen($socket, 2);
     var_dump($ret);
+    socket_close($socket);
