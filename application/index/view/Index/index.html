@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<h1 onclick="javascript:WebSocket()">{$hello}</h1>
+</body>
+<script>
+	function WebSocket() {
+		if ('WebSocket' in window) {
+			alert('支持');
+		} else {
+		    alert('不支持');
+		}
+    }
+</script>
+</html>
